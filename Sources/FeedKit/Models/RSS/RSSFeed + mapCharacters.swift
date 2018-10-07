@@ -151,6 +151,7 @@ extension RSSFeed {
         case .rssSponsorizzato: self.items?.last?.sponsorizzato                                      = self.items?.last?.sponsorizzato?.appending(string) ?? string
         case .rssPrezzo: self.items?.last?.prezzo                                      = self.items?.last?.prezzo?.appending(string) ?? string
         case .rssDataDiUscita: self.items?.last?.dataUscita                                      = self.items?.last?.dataUscita?.appending(string) ?? string
+        case .rssEvidenza: self.items?.last?.evidenza                                      = self.items?.last?.evidenza?.appending(string) ?? string
         default: break
         }
         

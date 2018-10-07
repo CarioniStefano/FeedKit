@@ -178,6 +178,7 @@ public class RSSFeedItem {
     
     public var sponsorizzato: String?
     public var dataUscita: String?
+    public var evidenza: String?
     
     
     // MARK: - Namespaces
