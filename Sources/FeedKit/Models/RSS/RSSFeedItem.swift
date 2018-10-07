@@ -172,6 +172,14 @@ public class RSSFeedItem {
     public var source: RSSFeedItemSource?
     
     
+    
+    public var prezzo: String?
+    
+    
+    public var sponsorizzato: String?
+    public var dataUscita: String?
+    
+    
     // MARK: - Namespaces
     
     /// The Dublin Core Metadata Element Set is a standard for cross-domain
@@ -212,7 +220,8 @@ extension RSSFeedItem: Equatable {
             lhs.media == rhs.media &&
             lhs.pubDate == rhs.pubDate &&
             lhs.source == rhs.source &&
-            lhs.title == rhs.title
+            lhs.title == rhs.title &&
+        lhs.dataUscita == rhs.dataUscita && lhs.prezzo == rhs.prezzo && lhs.sponsorizzato == rhs.sponsorizzato
     }
     
 }

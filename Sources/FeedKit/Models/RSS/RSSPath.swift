@@ -73,6 +73,9 @@ enum RSSPath: String {
     case rssChannelItemGUID                                     = "/rss/channel/item/guid"
     case rssChannelItemPubDate                                  = "/rss/channel/item/pubDate"
     case rssChannelItemSource                                   = "/rss/channel/item/source"
+    case rssPrezzo                                              = "/rss/channel/item/prezzo"
+    case rssSponsorizzato                                       = "/rss/channel/item/sponsorizzato"
+    case rssDataDiUscita                                        = "/rss/channel/item/data_di_uscita"
     
     // Content
     
