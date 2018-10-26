@@ -149,6 +149,7 @@ extension RSSFeed {
         case .rssChannelItemMediaScenesMediaSceneSceneStartTime:    self.items?.last?.media?.mediaScenes?.last?.sceneStartTime      = string.toDuration()
         case .rssChannelItemMediaScenesMediaSceneSceneEndTime:      self.items?.last?.media?.mediaScenes?.last?.sceneEndTime        = string.toDuration()
         case .rssSponsorizzato: self.items?.last?.sponsorizzato                                      = self.items?.last?.sponsorizzato?.appending(string) ?? string
+        case .rssAbbigliamento: self.items?.last?.abbigliamento                                      = self.items?.last?.abbigliamento?.appending(string) ?? string
         case .rssPrezzo: self.items?.last?.prezzo                                      = self.items?.last?.prezzo?.appending(string) ?? string
         case .rssDataDiUscita: self.items?.last?.dataUscita                                      = self.items?.last?.dataUscita?.appending(string) ?? string
         case .rssEvidenza: self.items?.last?.evidenza                                      = self.items?.last?.evidenza?.appending(string) ?? string
