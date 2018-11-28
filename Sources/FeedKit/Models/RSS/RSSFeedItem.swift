@@ -181,7 +181,7 @@ public class RSSFeedItem {
     public var sottotitolo: String?
     public var dataUscita: String?
     public var evidenza: String?
-    public var stores: [RSSFeedItemCategory]?
+    public var stores: [String]?
     
     
     // MARK: - Namespaces
