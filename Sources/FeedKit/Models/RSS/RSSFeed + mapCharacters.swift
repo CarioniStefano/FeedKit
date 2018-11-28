@@ -154,7 +154,7 @@ extension RSSFeed {
         case .rssEvidenza: self.items?.last?.evidenza                                      = self.items?.last?.evidenza?.appending(string) ?? string
         case .rssAbbigliamento: self.items?.last?.abbigliamento                                      = self.items?.last?.abbigliamento?.appending(string) ?? string
         case .rssSottotitolo: self.items?.last?.sottotitolo                                      = self.items?.last?.sottotitolo?.appending(string) ?? string
-        case .rssStore: self.items?.last?.stores                                      = self.items?.last?.stores?.appending(string) ?? string
+        case .rssStores: self.items?.last?.stores                                      = self.items?.last?.stores?.appending(string) ?? string
         default: break
         }
         
