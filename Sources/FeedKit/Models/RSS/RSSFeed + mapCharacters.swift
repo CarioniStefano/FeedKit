@@ -157,6 +157,7 @@ extension RSSFeed {
         case .rssLinkCorrelato: self.items?.last?.linkCorrelato                                      = self.items?.last?.linkCorrelato?.appending(string) ?? string
         case .rssStores: self.items?.last?.stores                                      = self.items?.last?.stores?.appending(string) ?? string
         case .rssRaffleStores: self.items?.last?.raffleStores                                      = self.items?.last?.raffleStores?.appending(string) ?? string
+        case .rssInstoreStores: self.items?.last?.instoreStores                                      = self.items?.last?.instoreStores?.appending(string) ?? string
         default: break
         }
         

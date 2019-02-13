@@ -82,6 +82,8 @@ enum RSSPath: String {
     case rssLinkCorrelato                                       = "/rss/channel/item/link_correlato"
     case rssStores                                              = "/rss/channel/item/json_stores"
     case rssRaffleStores                                        = "/rss/channel/item/json_raffle_stores"
+    case rssInstoreStores                                       = "/rss/channel/item/json_instore_stores"
+    
     
     // Content
     
