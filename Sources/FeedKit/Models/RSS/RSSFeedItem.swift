@@ -183,7 +183,6 @@ public class RSSFeedItem {
     public var dataUscita: String?
     public var evidenza: String?
     public var stores: String?
-    public var instoreStores: String?
     public var raffleStores: String?
     
     
@@ -228,7 +227,7 @@ extension RSSFeedItem: Equatable {
             lhs.pubDate == rhs.pubDate &&
             lhs.source == rhs.source &&
             lhs.title == rhs.title &&
-        lhs.dataUscita == rhs.dataUscita && lhs.prezzo == rhs.prezzo && lhs.sponsorizzato == rhs.sponsorizzato && lhs.abbigliamento == rhs.abbigliamento && lhs.sottotitolo == rhs.sottotitolo && lhs.stores == rhs.stores && lhs.linkCorrelato == rhs.linkCorrelato && lhs.raffleStores == rhs.raffleStores && lhs.instoreStores == rhs.instoreStores
+        lhs.dataUscita == rhs.dataUscita && lhs.prezzo == rhs.prezzo && lhs.sponsorizzato == rhs.sponsorizzato && lhs.abbigliamento == rhs.abbigliamento && lhs.sottotitolo == rhs.sottotitolo && lhs.stores == rhs.stores && lhs.linkCorrelato == rhs.linkCorrelato && lhs.raffleStores == rhs.raffleStores
     }
     
 }
