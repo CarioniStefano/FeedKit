@@ -181,6 +181,7 @@ public class RSSFeedItem {
     public var giornoStabilito: String?
     public var abbigliamento: String?
     public var sottotitolo: String?
+    public var immagine_evidenza: String?
     public var linkCorrelato: String?
     public var dataUscita: String?
     public var evidenza: String?
@@ -230,7 +231,7 @@ extension RSSFeedItem: Equatable {
             lhs.pubDate == rhs.pubDate &&
             lhs.source == rhs.source &&
             lhs.title == rhs.title &&
-        lhs.dataUscita == rhs.dataUscita && lhs.prezzo == rhs.prezzo && lhs.sponsorizzato == rhs.sponsorizzato && lhs.abbigliamento == rhs.abbigliamento && lhs.sottotitolo == rhs.sottotitolo && lhs.stores == rhs.stores && lhs.linkCorrelato == rhs.linkCorrelato && lhs.raffleStores == rhs.raffleStores && lhs.instoreStores == rhs.instoreStores && lhs.giornoStabilito == rhs.giornoStabilito && lhs.oraStabilita == rhs.oraStabilita
+        lhs.dataUscita == rhs.dataUscita && lhs.prezzo == rhs.prezzo && lhs.sponsorizzato == rhs.sponsorizzato && lhs.abbigliamento == rhs.abbigliamento && lhs.sottotitolo == rhs.sottotitolo && lhs.immagine_evidenza == rhs.immagine_evidenza && lhs.stores == rhs.stores && lhs.linkCorrelato == rhs.linkCorrelato && lhs.raffleStores == rhs.raffleStores && lhs.instoreStores == rhs.instoreStores && lhs.giornoStabilito == rhs.giornoStabilito && lhs.oraStabilita == rhs.oraStabilita
     }
     
 }

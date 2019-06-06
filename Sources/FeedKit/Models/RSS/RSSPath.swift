@@ -77,6 +77,7 @@ enum RSSPath: String {
     case rssSponsorizzato                                       = "/rss/channel/item/sponsorizzato"
     case rssAbbigliamento                                       = "/rss/channel/item/abbigliamento"
     case rssSottotitolo                                         = "/rss/channel/item/sottotitolo"
+    case rssImmagineEvidenza                                    = "/rss/channel/item/immagine_evidenza"
     case rssDataDiUscita                                        = "/rss/channel/item/data_di_uscita"
     case rssEvidenza                                            = "/rss/channel/item/evidenza"
     case rssLinkCorrelato                                       = "/rss/channel/item/link_correlato"
