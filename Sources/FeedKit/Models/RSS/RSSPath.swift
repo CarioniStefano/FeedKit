@@ -83,7 +83,7 @@ enum RSSPath: String {
     case rssLinkCorrelato                                       = "/rss/channel/item/link_correlato"
     case rssStores                                              = "/rss/channel/item/json_stores"
     case rssRaffleStores                                        = "/rss/channel/item/json_raffle_stores"
-    case rssInstoreStores                                       = "/rss/channel/item/json_instore_stores"
+    case rssInstoreStores                                      = "/rss/channel/item/json_instore_stores"
     case rssGallery                                             = "/rss/channel/item/json_gallery"
     case rssOraStabilita                                        = "/rss/channel/item/ora_stabilita"
     case rssGiornoStabilito                                     = "/rss/channel/item/giorno_stabilito"
