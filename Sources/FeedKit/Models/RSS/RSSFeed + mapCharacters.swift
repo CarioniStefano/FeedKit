@@ -159,6 +159,7 @@ extension RSSFeed {
         case .rssStores: self.items?.last?.stores                                      = self.items?.last?.stores?.appending(string) ?? string
         case .rssRaffleStores: self.items?.last?.raffleStores                                      = self.items?.last?.raffleStores?.appending(string) ?? string
         case .rssInstoreStores: self.items?.last?.instoreStores                                      = self.items?.last?.instoreStores?.appending(string) ?? string
+        case .rssJsonGallery: self.items?.last?.jsonGallery                                      = self.items?.last?.jsonGallery?.appending(string) ?? string
         case .rssOraStabilita: self.items?.last?.oraStabilita                                      = self.items?.last?.oraStabilita?.appending(string) ?? string
         case .rssGiornoStabilito: self.items?.last?.giornoStabilito                                      = self.items?.last?.giornoStabilito?.appending(string) ?? string
         default: break
